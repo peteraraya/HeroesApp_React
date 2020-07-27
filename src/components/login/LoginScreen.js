@@ -16,7 +16,7 @@ export const LoginScreen = ({ history }) => {
     // enviar en dispath  un objeto con un name
 
     // leemos el path de localstorage 
-    const lastPath = localStorage.getItem('lastPath' || '/');
+    const lastPath = localStorage.getItem('lastPath') || '/';
 
     // dispararemos la acción 
     dispatch({
